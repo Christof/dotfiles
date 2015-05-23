@@ -27,7 +27,7 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'vim-scripts/paredit.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
-Plugin 'mileszs/ack.vim'
+Plugin 'rking/ag.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'sjl/gundo.vim'
 Plugin 'pangloss/vim-javascript'
@@ -151,8 +151,8 @@ nnoremap <Leader>g <C-]>
 " open vimrc in new tab
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
-" Bind ack to <Leader>f
-nnoremap <Leader>f :Ack
+" Bind ag to <Leader>f
+nnoremap <Leader>f :Ag
 
 " map <C-]> to <Leader>g
 nnoremap <Leader>g <C-]>
