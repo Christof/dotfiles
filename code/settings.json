@@ -1,0 +1,42 @@
+{
+  "editor.autoClosingBrackets": false,
+  "editor.fontSize": 13,
+  "editor.formatOnSave": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    ".nyc_output": true,
+    ".vscode": true,
+    "coverage": true,
+    "node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "gitlens.blame.line.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "html.autoClosingTags": false,
+  "html.format.endWithNewline": true,
+  "html.format.preserveNewLines": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "http.proxy": "http://christof.sirk:runrunrun@apat-wsa.anton-paar.com:3128",
+  "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.trailingComma": "es5",
+  "typescript.autoImportSuggestions.enabled": false,
+  "typescript.extension.sortImports.maxNamedImportsInSingleLine": 99,
+  "typescript.extension.sortImports.pathSortOrder": [
+    "package",
+    "relativeDownLevel",
+    "relativeUpLevel"
+  ],
+  "typescript.extension.sortImports.sortMethod": "path",
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.startupEditor": "newUntitledFile"
+}
