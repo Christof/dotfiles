@@ -6,6 +6,7 @@
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
   "emmet.triggerExpansionOnTab": true,
+  "files.eol": "\n",
   "files.exclude": {
     "**/.DS_Store": true,
     "**/.git": true,
@@ -18,6 +19,7 @@
     "node_modules": true
   },
   "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
   "gitlens.blame.line.enabled": false,
   "gitlens.codeLens.enabled": false,
   "html.autoClosingTags": false,
