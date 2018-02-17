@@ -2,7 +2,7 @@
 ## Installation
 To download and install the dotfiles run the following command in your terminal:
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/Christof/dotfiles/master/install_tools.sh)
+bash <(curl -s https://raw.githubusercontent.com/SpritzerPyro/dotfiles/master/install_tools.sh)
 ```
 
 This installs:
@@ -17,7 +17,7 @@ If password-error occurs then restart the system and rerun script.
 ### Special Installation Instructions for KDE
 If there is no USERNAME variable set, run:
 ```sh
-USERNAME=user123 bash <(curl -s https://raw.githubusercontent.com/Christof/dotfiles/master/install_tools.sh)
+USERNAME=user123 bash <(curl -s https://raw.githubusercontent.com/SpritzerPyro/dotfiles/master/install_tools.sh)
 ```
 The zsh installer may tell you to reopen your terminal and `install_tools.sh` stops at this point. The command ...
 ```sh
