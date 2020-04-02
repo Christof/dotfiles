@@ -66,6 +66,7 @@ Plugin 'Lokaltog/vim-distinguished'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'lifepillar/vim-solarized8'
 Plugin 'ElmCast/elm-vim'
+Plugin 'tomasiser/vim-code-dark'
 
 call vundle#end()
 "
