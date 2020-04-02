@@ -137,11 +137,16 @@ if [ -e $INSTALLED/dotfiles ];
 then
   echo "Dotfiles already installed."
 else
-  sudo apt-get install libclang-3.8-dev clang-format-3.8 -y
+  readonly CLANG_VERSION="9"
+
+  sudo apt-get install --yes \
+    "libclang-${CLANG_VERSION}-dev" \
+    "clang-format-${CLANG_VERSION}"
+
   # Create symbolic link because the vim config expects a clang-format
   if [ ! -f /usr/bin/clang-format ];
   then
-    sudo ln -s /usr/bin/clang-format-3.8 /usr/bin/clang-format
+    sudo ln -s "/usr/bin/clang-format-${CLANG_VERSION}" /usr/bin/clang-format
   fi
 
   cd $USER_SOURCES
@@ -173,4 +178,3 @@ else
 
   echo "installed vcpkg successfully."
 fi
-
