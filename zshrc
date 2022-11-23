@@ -52,7 +52,7 @@ alias grb="git rebase"
 alias gdc="git diff --cached"
 alias gst="git stash"
 alias git-remote-cleanup="git remote prune origin"
-alias gbam="git branch --merged master | grep -v master | xargs git branch -d"
+alias gbam="git branch --merged $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@') | grep -v $(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@') | xargs git branch -d"
 alias gpn="git push --no-verify"
 
 alias sagi="sudo apt-get install"
