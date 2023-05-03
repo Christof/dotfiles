@@ -30,6 +30,9 @@ cmp.setup({
     ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select_opts),
     ['<C-n>'] = cmp.mapping.select_next_item(cmp_select_opts),
 
+    ['<Tab>'] = cmp_action.tab_complete(),
+    ['<S-Tab>'] = cmp_action.select_prev_or_fallback(),
+
     -- Ctrl+Space to trigger completion menu
     ['<C-Space>'] = cmp.mapping.complete(),
 
