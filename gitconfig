@@ -5,7 +5,7 @@
   branch = auto
   ui = auto
 [core]
-  editor = vim
+  editor = nvim
   attributesfile = ~/.gitattributes
   excludesfile = ~/.gitignore
   filemode = false
@@ -24,8 +24,6 @@
   command = ~/bin/git-imgdiff
 [push]
   default = simple
-[credential]
-  helper = libsecret
 [pager]
 	diff = diff-highlight | less
 	show = diff-highlight | less
