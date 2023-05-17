@@ -28,7 +28,8 @@ return require('packer').startup(function(use)
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
     config = function()
       require("nvim-surround").setup({})
-    end
+    end,
+    requires = { "nvim-lua/plenary.nvim" },
   })
   use {
     'VonHeikemen/lsp-zero.nvim',
@@ -50,6 +51,7 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},     -- Required
     }
   }
+  use 'jose-elias-alvarez/null-ls.nvim'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
