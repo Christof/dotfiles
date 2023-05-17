@@ -22,6 +22,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+  use('terrortylor/nvim-comment')
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
