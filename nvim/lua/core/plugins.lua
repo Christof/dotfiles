@@ -23,6 +23,13 @@ return require('packer').startup(function(use)
   }
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('terrortylor/nvim-comment')
+  use({
+    "kylechui/nvim-surround",
+    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+      require("nvim-surround").setup({})
+    end
+  })
   use {
     'VonHeikemen/lsp-zero.nvim',
     branch = 'v2.x',
